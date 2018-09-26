@@ -13,6 +13,8 @@ steps:
     dotnet build --configuration $(buildConfiguration)
     dotnet test dotnetcore-tests --configuration $(buildConfiguration) --logger trx
     dotnet publish --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
+- script: dotnet tool install -g dotnetsay
+- script: dotnetsay
 
 - task: PublishTestResults@2
   inputs:
