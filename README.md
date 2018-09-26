@@ -1,3 +1,5 @@
+[![Build Status](https://balajiramachandran.visualstudio.com/MyPhoenix/_apis/build/status/MyPhoenix-CI)](https://balajiramachandran.visualstudio.com/MyPhoenix/_build/latest?definitionId=2)
+
 # Sample ASP.NET Core application for Azure Pipelines docs
 
 For information on how to use this repository, see [.NET Core](https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core).
